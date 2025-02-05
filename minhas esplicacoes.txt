@@ -1,0 +1,6 @@
+Eu coloquei uma  <div class="container"> em volta da tag main, pq assim, 
+todos os conteudos, vão ficar no "centro" assim vai deixar um "padrão"
+
+Para pegar uma imagem na pasta "img" pracisa usar o caminho src="../img/** (o nome da imagem que vc quer) "
+usando o "../" vc sai da pasta que vc está e vai para de fora.
+Mas vc usando o atalho ctrl+espaço, jã vão aparecer as pastas disponiveis e os arquivos 

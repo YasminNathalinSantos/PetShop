@@ -8,39 +8,50 @@
     <title>Casa de ração São Francisco</title>
 </head>
 <body>
-    <div class=" container-fluid vh-100 ">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-primary ">
-                <div class="container-fluid p-4">
-                  <div class="logo ">
-                        <img src="htmlsemfundo.png" alt="Logo do site">
-                  </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>"
-                  </button>
-                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent ms-6">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
+  <!-- section header (cabeçario da pagina ) -->
+  <header class="">
+    <div class="bg-white ">
+        <nav class="navbar navbar-expand-lg navbar-main">
+          <div class="container" style="padding: 0px 20px ">
+            <div>
+              <a class="navbar-brand  me-5" href="#"><img class="logo-header custom-logo entered lazyloaded" width="250" height="150" src="../img/htmlsemfundo.png" alt="Casa de ração São Francisco"></a>
+            </div>
+            <div class="col-4 d-lg-none text-end">
+              <button class="navbar-toggler  text-info bg-primary" title="Expandir" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMain" aria-controls="navbarMain">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="col-12 col-lg-10 col-xxl-9 ps-2 respdiv">
+              <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="navbarMain">
+                <div class="offcanvas-header justify-content-end">
+                  <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                  <ul class="navbar-nav justify-content-end align-items-lg-center flex-grow-1 gap-xxl-3 pe-xxl-3">
+                      <li class="nav-item"><a class="nav-link "  href="">HOME</a></li>
+                      <li class="nav-item"><a class="nav-link "  href="">PRODUTOS</a></li>
+                      <li class="nav-item"><a class="nav-link " href="">QUEM SOMOS</a></li>
+                      <li class="nav-item"><a class="nav-link " href="">CONTATO</a></li>
+                      <li><button class="btn btn-success">Falar com vendedor</button></li>
                     </ul>
-                  </div>
-                  <div>
-                    <button class="btn btn-success" type="submit">WhatsApp</button>
                 </div>
-                </div>
-              </nav>
-              <main>
-                 <h1> Nutrição e amor em cada mordida! <strong class="Titulo-destaque">Escolha o melhor para o seu pet. </strong> </h1>
-                 <p>Seu pet merece uma alimentação equilibrada e saborosa, feita com ingredientes de qualidade para garantir saúde, energia e bem-estar. Nossas rações são desenvolvidas para atender às necessidades de cada fase da vida, proporcionando uma dieta rica e balanceada. </p>
-              </main>
-              <img src="bannerEntrada.jpeg" alt="Banner São Francisco">
-             
-        </header>
-       
+              </div>
+            </div>
+          </div>
+      </nav>
+      </div>
+    </header>
+<!-- section final header (cabeçario da pagina ) -->
+
+<!-- corpo do site  -->
+    <div class="container">
+        <!-- section do main  -->
+        <main>
+          <h1> Nutrição e amor em cada mordida! <strong class="Titulo-destaque">Escolha o melhor para o seu pet. </strong> </h1>
+          <p>Seu pet merece uma alimentação equilibrada e saborosa, feita com ingredientes de qualidade para garantir saúde, energia e bem-estar. Nossas rações são desenvolvidas para atender às necessidades de cada fase da vida, proporcionando uma dieta rica e balanceada. </p>
+       </main>
+       <img src="bannerEntrada.jpeg" alt="Banner São Francisco">
+      
     </div>
 
 </body>
